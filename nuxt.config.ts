@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   nitro: {
+    minify: false,
     preset: 'vercel-edge' // you can use 'vercel' or other providers here
   },
   runtimeConfig: {
